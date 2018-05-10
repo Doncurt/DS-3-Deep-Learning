@@ -1,0 +1,44 @@
+https://www.youtube.com/watch?v=wvWpdrfoEv0
+
+Teacher bot gives the test
+Tuner bot is the wieght update rule its the one that adjusts all of the nobs(wieghts) on each feature
+-tuner bot adjusts the tuner bot( learning rate is the hyper parameter
+
+
+- Learn one hot encoding -
+
+- first get the shape to get the deminsionality) in this case 60000 features, that are 28 by 28
+60,000 photos that are 28 by 28 and there are images for (red blue and yellow but must shape)
+
+- Some neural networks take tensors and matrix, this doesnt so need to turn it into a vector( 1D)
+- do this to turn it into array or list
+
+============================================================
+
+- For image classification  you'll need to use the 255 division for the colors in order normalize the image data(0,1) for processing, will result into values between 0 and 1
+
+-http://scikit-learn.org/stable/modules/preprocessing.html
+
+https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6
+
+===========================================================
+--ONE HOT VECTORS--
+The one thing you are has a value and the others done...aka for 10 1=000000001
+
+num_classes = 10
+y_train = keras.utils.to_categorical(y_train, num_classes)
+y_test = keras.utils.to_categorical(y_test, num_classes)
+
+y_train[0] would usually equal 5 but after one hot encoding
+
+array([0., 0., 0., 0., 0., 1., 0., 0., 0., 0.], dtype=float32)
+
+For multi-class classification
+
+
+===========================================
+https://keras.io/layers/core/#dense
+
+dense sets how many layer
+
+
