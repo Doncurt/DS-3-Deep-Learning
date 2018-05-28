@@ -128,4 +128,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+#csv files
+*.csv
 # End of https://www.gitignore.io/api/macos,python
